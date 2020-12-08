@@ -37,8 +37,8 @@ const Cards = ({ match }) => {
             height: "23rem",
             margin: "20px 24px",
             boxShadow: "5px 5px 5px #333333",
-            background: match.matchStarted ? "grey" : "black",
-            opacity: match.matchStarted ? "1" : "0.7",
+            background: match.matchStarted ? "green" : "red",
+            opacity: match.matchStarted ? "0.7" : "0.7",
           }}
         >
           <CardContent style={{ textAlign: "center" }}>
