@@ -1,0 +1,6 @@
+@media screen and (max-width: 1000px) {
+  #mob {
+    margin-right: -168%;
+    max-width: 95%;
+  }
+}

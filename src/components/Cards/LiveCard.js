@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card, CardContent, Grid, Typography } from "@material-ui/core";
 import Img from "../Images/vs2.jpg";
+import "./LiveCard.css";
 
 function LiveCard() {
   const [data, setData] = useState([]);
@@ -10,7 +11,7 @@ function LiveCard() {
   useEffect(() => {
     axios
       .get(
-        `https://cricapi.com/api/cricketScore/?apikey=${API_KEY}&unique_id=1223953`
+        `https://cricapi.com/api/cricketScore/?apikey=${API_KEY}&unique_id=1223954`
       )
 
       .then((res) => {
@@ -27,14 +28,16 @@ function LiveCard() {
         <div>
           <Grid container justify="center">
             <Card
+              id="mob"
               style={{
                 width: "40rem",
                 height: "20rem",
                 background: "black",
-                margin: "20px 24px",
+                // margin: "20px 24px",
+                marginLeft: "-610px",
                 opacity: "0.7",
                 boxShadow: "5px 5px 5px #333333",
-                marginTop: "150px",
+                marginTop: "220px",
               }}
             >
               <CardContent>
@@ -99,7 +102,6 @@ function LiveCard() {
           </Grid>
         </div>
       ))}
-      ;
     </div>
   );
 }

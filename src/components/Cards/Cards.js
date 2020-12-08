@@ -30,7 +30,7 @@ const Cards = ({ match }) => {
   };
   const getMatchCard = () => {
     return (
-      <div style={{ display: "inline-block" }}>
+      <div style={{ display: "inline-block", backgroundColor: "lightwhite" }}>
         <Card
           style={{
             width: "18rem",

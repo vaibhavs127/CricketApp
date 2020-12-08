@@ -10,9 +10,10 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import InfoIcon from "@material-ui/icons/Info";
 import FormatListNumberedIcon from "@material-ui/icons/FormatListNumbered";
-import "./Back.css";
+import Background from "../Images/back2.jpg";
 import LiveCard from "../Cards/LiveCard";
 import Back from "./Back";
+import Footer from "./Footer";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,11 +27,18 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const sectionStyle = {
+  width: "100%",
+  height: "750px",
+  backgroundImage: `url(${Background})`,
+  backgroundSize: "cover",
+};
+
 function MainPage() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
           <IconButton
             edge="start"
@@ -75,9 +83,10 @@ function MainPage() {
           </Button>
         </Toolbar>
       </AppBar>
-
-      <LiveCard />
-      <Back />
+      <section style={sectionStyle}>
+        <LiveCard />
+        {/* <Back /> */}
+      </section>
     </div>
   );
 }
