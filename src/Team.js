@@ -5,7 +5,7 @@ import { getMatches } from "./Api/Api";
 import { Grid } from "@material-ui/core";
 import Background from "./components/Images/back2.jpg";
 
-function Data() {
+function Team() {
   const [matches, setMatches] = useState([]);
   const [Livematch, setLiveMatch] = useState([]);
   useEffect(() => {
@@ -30,22 +30,22 @@ function Data() {
         <Grid container>
           <Grid item xs={12} sm={12}>
             <NavBar />
-            <h1 style={{ textAlign: "center", color: "blue" }}>T20 Matches</h1>
+            <h1 style={{ textAlign: "center", color: "blue" }}>Team Match</h1>
           </Grid>
           <Grid item xs={8} sm={10} style={{ marginLeft: "20%" }}>
             {" "}
             {matches.map((match) => (
               <Fragment>
-                {/* {match["team-1"] && match["team-2"] === "India" ? (
-            <Cards key={match.unique_id} match={match} />
-          ) : (
-            ""
-          )} */}
-                {match.type == "Twenty20" ? (
+                {match["team-1"] && match["team-2"] === "India" ? (
                   <Cards key={match.unique_id} match={match} />
                 ) : (
                   ""
                 )}
+                {/* {match.type == "Twenty20" ? (
+                <Cards key={match.unique_id} match={match} />
+              ) : (
+                ""
+              )} */}
               </Fragment>
             ))}
           </Grid>
@@ -55,4 +55,4 @@ function Data() {
   );
 }
 
-export default Data;
+export default Team;

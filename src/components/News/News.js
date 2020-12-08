@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import NavBar from "../NavBar/NavBar";
+import Nav from "./Nav";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -57,7 +57,7 @@ function News() {
 
   return (
     <div style={{ backgroundColor: "#333" }}>
-      <NavBar />
+      <Nav />
       <div className="container">
         <label className="search-label" htmlFor="search-input">
           <input
