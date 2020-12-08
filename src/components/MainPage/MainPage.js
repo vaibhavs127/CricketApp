@@ -74,7 +74,7 @@ function MainPage() {
             </Link>
           </Button>
           <Button>
-            <Link to="/Data" style={{ color: "white", textDecoration: "none" }}>
+            <Link to="/ODI" style={{ color: "white", textDecoration: "none" }}>
               <IconButton>
                 <FormatListNumberedIcon style={{ color: "white" }} />
               </IconButton>

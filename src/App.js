@@ -1,11 +1,12 @@
 import React from "react";
 import MainPage from "./components/MainPage/MainPage";
-import Data from "./Data";
+import Data from "./Pages/Data";
 import News from "./components/News/News";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import ODIData from "./ODIData";
-import AllMatches from "./AllMatchs";
-import Team from "./Team";
+import ODIData from "./Pages/ODIData";
+import AllMatches from "./Pages/AllMatchs";
+import Team from "./Pages/Team";
+import ODI from "./components/ICCRanking/ODI";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/News">
             <News />
+          </Route>
+          <Route path="/ODI">
+            <ODI />
           </Route>
         </Switch>
       </div>

@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
-import Cards from "./components/Cards/Cards";
-import NavBar from "./components/NavBar/NavBar";
-import { getMatches } from "./Api/Api";
+import Cards from "../components/Cards/Cards";
+import NavBar from "../components/NavBar/NavBar";
+import { getMatches } from "../Api/Api";
 import { Grid } from "@material-ui/core";
-import Background from "./components/Images/back2.jpg";
+import Background from "../components/Images/back2.jpg";
 
-function AllMatches() {
+function Data() {
   const [matches, setMatches] = useState([]);
   const [Livematch, setLiveMatch] = useState([]);
   useEffect(() => {
@@ -30,13 +30,22 @@ function AllMatches() {
         <Grid container>
           <Grid item xs={12} sm={12}>
             <NavBar />
-            <h1 style={{ textAlign: "center", color: "blue" }}>All Matches</h1>
+            <h1 style={{ textAlign: "center", color: "blue" }}>T20 Matches</h1>
           </Grid>
           <Grid item xs={8} sm={10} style={{ marginLeft: "20%" }}>
             {" "}
             {matches.map((match) => (
               <Fragment>
-                <Cards key={match.unique_id} match={match} />
+                {/* {match["team-1"] && match["team-2"] === "India" ? (
+            <Cards key={match.unique_id} match={match} />
+          ) : (
+            ""
+          )} */}
+                {match.type == "Twenty20" ? (
+                  <Cards key={match.unique_id} match={match} />
+                ) : (
+                  ""
+                )}
               </Fragment>
             ))}
           </Grid>
@@ -46,4 +55,4 @@ function AllMatches() {
   );
 }
 
-export default AllMatches;
+export default Data;

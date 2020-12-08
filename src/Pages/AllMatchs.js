@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
-import Cards from "./components/Cards/Cards";
-import NavBar from "./components/NavBar/NavBar";
-import { getMatches } from "./Api/Api";
+import Cards from "../components/Cards/Cards";
+import NavBar from "../components/NavBar/NavBar";
+import { getMatches } from "../Api/Api";
 import { Grid } from "@material-ui/core";
-import Background from "./components/Images/back2.jpg";
+import Background from "../components/Images/back2.jpg";
 
-function ODIData() {
+function AllMatches() {
   const [matches, setMatches] = useState([]);
   const [Livematch, setLiveMatch] = useState([]);
   useEffect(() => {
@@ -30,17 +30,13 @@ function ODIData() {
         <Grid container>
           <Grid item xs={12} sm={12}>
             <NavBar />
-            <h1 style={{ textAlign: "center", color: "blue" }}>ODI Matches</h1>
+            <h1 style={{ textAlign: "center", color: "blue" }}>All Matches</h1>
           </Grid>
           <Grid item xs={8} sm={10} style={{ marginLeft: "20%" }}>
             {" "}
             {matches.map((match) => (
               <Fragment>
-                {match.type == "ODI" ? (
-                  <Cards key={match.unique_id} match={match} />
-                ) : (
-                  ""
-                )}
+                <Cards key={match.unique_id} match={match} />
               </Fragment>
             ))}
           </Grid>
@@ -50,4 +46,4 @@ function ODIData() {
   );
 }
 
-export default ODIData;
+export default AllMatches;
