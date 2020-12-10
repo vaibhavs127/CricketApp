@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "Team": "England",
+    "Matches": 25,
+    "Points": 6877,
+    "Rating": 275,
+    "img": ""
+  },
+  {
+    "id": 2,
+    "Team": "Australia",
+    "Matches": 24,
+    "Points": 6481,
+    "Rating": 270,
+    "img": ""
+  },
+  {
+    "id": 3,
+    "Team": "India ",
+    "Matches": 37,
+    "Points": 9966,
+    "Rating": 269,
+    "img": ""
+  },
+  {
+    "id": 4,
+    "Team": "Pakistan",
+    "Matches": 26,
+    "Points": 6824,
+    "Rating": 262,
+    "img": ""
+  },
+  {
+    "id": 5,
+    "Team": "South Africa",
+    "Matches": 20,
+    "Points": 5047,
+    "Rating": 252,
+    "img": ""
+  }
+]

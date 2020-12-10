@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "Team": "Australia",
+    "Matches": 26,
+    "Points": 3028,
+    "Rating": 116,
+    "img": ""
+  },
+  {
+    "id": 2,
+    "Team": "New Zealand",
+    "Matches": 21,
+    "Points": 2406,
+    "Rating": 115,
+    "img": ""
+  },
+  {
+    "id": 3,
+    "Team": "India",
+    "Matches": 27,
+    "Points": 3085,
+    "Rating": 114,
+    "img": ""
+  },
+  {
+    "id": 4,
+    "Team": "England",
+    "Matches": 41,
+    "Points": 4326,
+    "Rating": 106,
+    "img": ""
+  },
+  {
+    "id": 5,
+    "Team": "Sri Lanka",
+    "Matches": 27,
+    "Points": 2454,
+    "Rating": 91,
+    "img": ""
+  }
+]

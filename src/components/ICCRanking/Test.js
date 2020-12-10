@@ -1,9 +1,9 @@
 import { Grid } from "@material-ui/core";
 import React, { useState, useEffect } from "react";
-import TeamData from "./T20.json";
-import logo from "../Images/t201.jpg";
+import TeamData from "./TestRank.json";
+import logo from "../Images/test.jpg";
 
-function T20Ranking() {
+function Test() {
   fetch("./Team.json")
     .then((response) => {
       console.log(response);
@@ -19,12 +19,12 @@ function T20Ranking() {
         justify="center"
         style={{
           borderTop: "1px solid black",
-          backgroundColor: "white",
+          backgroundColor: "#6d9bc9",
           fontSize: "20px",
         }}
       >
         <Grid item xs={6} sm={2}>
-          <h1 style={{ textAlign: "center" }}>T20</h1>
+          <h1 style={{ textAlign: "center" }}>TEST</h1>
           <img src={logo} width="100%" />
         </Grid>
         <Grid item xs={6} sm={1}>
@@ -102,4 +102,4 @@ function T20Ranking() {
   );
 }
 
-export default T20Ranking;
+export default Test;

@@ -15,3 +15,4 @@ export const getMatchDetails = (id) => {
     .then((res) => res.json())
     .catch((error) => console.log(error));
 };
+
