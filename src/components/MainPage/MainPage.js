@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 
 const sectionStyle = {
   width: "100%",
-  height: "750px",
+  height: "620px",
   backgroundImage: `url(${Background})`,
   backgroundSize: "cover",
 };
@@ -85,7 +85,8 @@ function MainPage() {
       </AppBar>
       <section style={sectionStyle}>
         <LiveCard />
-        {/* <Back /> */}
+        <Back />
+        <Footer />
       </section>
     </div>
   );

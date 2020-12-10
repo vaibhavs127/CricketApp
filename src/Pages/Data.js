@@ -30,7 +30,15 @@ function Data() {
         <Grid container>
           <Grid item xs={12} sm={12}>
             <NavBar />
-            <h1 style={{ textAlign: "center", color: "blue" }}>T20 Matches</h1>
+            <h1
+              style={{
+                textAlign: "center",
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              T20 Matches
+            </h1>
           </Grid>
           <Grid item xs={8} sm={10} style={{ marginLeft: "20%" }}>
             {" "}

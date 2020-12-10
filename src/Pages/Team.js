@@ -30,7 +30,7 @@ function Team() {
         <Grid container>
           <Grid item xs={12} sm={12}>
             <NavBar />
-            <h1 style={{ textAlign: "center", color: "blue" }}>Team Match</h1>
+            <h1 style={{ textAlign: "center", color: "black" }}>Team Match</h1>
           </Grid>
           <Grid item xs={8} sm={10} style={{ marginLeft: "20%" }}>
             {" "}

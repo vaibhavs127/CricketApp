@@ -38,13 +38,13 @@ function Footer() {
           <div>
             <RoomIcon />
             <p>
-              <span>444 S. Cedros Ave</span> Solana Beach, California
+              <span>India</span>
             </p>
           </div>
 
           <div>
             <PhoneIcon />
-            <p>+1.555.555.5555</p>
+            <p>1234567890</p>
           </div>
 
           <div>
@@ -58,8 +58,7 @@ function Footer() {
         <div className="footer-right">
           <p className="footer-company-about">
             <span>About the company</span>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
-            euismod convallis velit, eu auctor lacus vehicula sit amet.
+            Here you can get all the details of matches and the latest news
           </p>
 
           <div className="footer-icons">

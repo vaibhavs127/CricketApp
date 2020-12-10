@@ -30,7 +30,7 @@ function AllMatches() {
         <Grid container>
           <Grid item xs={12} sm={12}>
             <NavBar />
-            <h1 style={{ textAlign: "center", color: "blue" }}>All Matches</h1>
+            <h1 style={{ textAlign: "center", color: "black" }}>All Matches</h1>
           </Grid>
           <Grid item xs={8} sm={10} style={{ marginLeft: "20%" }}>
             {" "}
