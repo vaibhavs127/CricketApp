@@ -85,8 +85,8 @@ function MainPage() {
       </AppBar>
       <section style={sectionStyle}>
         <LiveCard />
-        <Back />
-        <Footer />
+        {/* <Back /> */}
+        {/* <Footer /> */}
       </section>
     </div>
   );
