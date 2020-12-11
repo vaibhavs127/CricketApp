@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import Nav from "./Nav";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -10,6 +9,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import "./News.css";
+import NewsData from "./News.json";
 
 const useStyles = makeStyles({
   root: {
@@ -28,14 +28,10 @@ function News() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios
-      .get(
-        "https://newsapi.org/v2/top-headlines?country=in&apiKey=b36c2fed602c43eeb8b252376b099d38&category=sports"
-      )
-
+    fetch("./News.json")
       .then((res) => {
-        console.log(res.data.articles);
-        setData(res.data.articles);
+        console.log(res.data);
+        setData(res.data);
         setLoading(false);
       })
       .catch((err) => {
@@ -45,7 +41,7 @@ function News() {
 
   useEffect(() => {
     setfilterNews(
-      data.filter((data) => {
+      NewsData.filter((data) => {
         return data.title.toLowerCase().includes(search.toLowerCase());
       })
     );
