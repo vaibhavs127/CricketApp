@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/CricketApp/static/css/main.280a6345.chunk.css",
+    "main.js": "/CricketApp/static/js/main.186cbf17.chunk.js",
+    "main.js.map": "/CricketApp/static/js/main.186cbf17.chunk.js.map",
+    "runtime-main.js": "/CricketApp/static/js/runtime-main.d928a5bf.js",
+    "runtime-main.js.map": "/CricketApp/static/js/runtime-main.d928a5bf.js.map",
+    "static/js/2.d11716e0.chunk.js": "/CricketApp/static/js/2.d11716e0.chunk.js",
+    "static/js/2.d11716e0.chunk.js.map": "/CricketApp/static/js/2.d11716e0.chunk.js.map",
+    "static/js/3.3ee6be2b.chunk.js": "/CricketApp/static/js/3.3ee6be2b.chunk.js",
+    "static/js/3.3ee6be2b.chunk.js.map": "/CricketApp/static/js/3.3ee6be2b.chunk.js.map",
+    "index.html": "/CricketApp/index.html",
+    "static/css/main.280a6345.chunk.css.map": "/CricketApp/static/css/main.280a6345.chunk.css.map",
+    "static/js/2.d11716e0.chunk.js.LICENSE.txt": "/CricketApp/static/js/2.d11716e0.chunk.js.LICENSE.txt",
+    "static/media/back2.e07dcce9.jpg": "/CricketApp/static/media/back2.e07dcce9.jpg",
+    "static/media/odi.bcc1687f.jpg": "/CricketApp/static/media/odi.bcc1687f.jpg",
+    "static/media/t201.66c57cc3.jpg": "/CricketApp/static/media/t201.66c57cc3.jpg",
+    "static/media/test.2131dc72.jpg": "/CricketApp/static/media/test.2131dc72.jpg",
+    "static/media/vs.df281ec2.jpg": "/CricketApp/static/media/vs.df281ec2.jpg",
+    "static/media/vs2.094dadb1.jpg": "/CricketApp/static/media/vs2.094dadb1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d928a5bf.js",
+    "static/js/2.d11716e0.chunk.js",
+    "static/css/main.280a6345.chunk.css",
+    "static/js/main.186cbf17.chunk.js"
+  ]
+}
