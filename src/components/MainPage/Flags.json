@@ -1,26 +1,42 @@
 [
   {
-    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png",
+    "team": "India",
+    "Captain": "Virat Kohli"
   },
   {
-    "img": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg"
+    "img": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
+    "team": "England",
+    "Captain": "Joe Root"
   },
   {
-    "img": "https://cdn.britannica.com/200x500/78/6078-050-F5A1B85A/Flag-Australia.jpg"
+    "img": "https://cdn.britannica.com/200x500/78/6078-050-F5A1B85A/Flag-Australia.jpg",
+    "team": "Australia",
+    "Captain": "Aaron Finch"
   },
   {
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1200px-Flag_of_South_Africa.svg.png"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1200px-Flag_of_South_Africa.svg.png",
+    "team": "South Africa",
+    "Captain": "Quinton de Kock"
   },
   {
-    "img": "https://upload.wikimedia.org/wikipedia/en/6/65/West_indies_cricket_board_flag.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/6/65/West_indies_cricket_board_flag.png",
+    "team": "West Indies",
+    "Captain": "Jason Holder"
   },
   {
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1280px-Flag_of_Sri_Lanka.svg.png"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1280px-Flag_of_Sri_Lanka.svg.png",
+    "team": "Sri Lanka",
+    "Captain": "Dimuth Karunaratne"
   },
   {
-    "img": "https://cdn.britannica.com/67/6267-004-10A21DF0/Flag-Bangladesh.jpg"
+    "img": "https://cdn.britannica.com/67/6267-004-10A21DF0/Flag-Bangladesh.jpg",
+    "team": "Bangladesh",
+    "Captain": "Shakib Al Hasan"
   },
   {
-    "img": "https://upload.wikimedia.org/wikipedia/en/6/65/West_indies_cricket_board_flag.png"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+    "team": "New Zealand",
+    "Captain": "Kane Williamson"
   }
 ]

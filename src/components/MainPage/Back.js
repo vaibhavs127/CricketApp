@@ -4,6 +4,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardMedia from "@material-ui/core/CardMedia";
 import { makeStyles } from "@material-ui/core/styles";
 import TeamData from "./Flags.json";
+import { CardActions, CardContent, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
@@ -25,16 +26,16 @@ function Back() {
     });
 
   return (
-    <div>
+    <div style={{ backgroundColor: "lightblue" }}>
       {TeamData.map((datas) => (
         <div className="cont" style={{ display: "inline-block" }}>
           <Card
             style={{
               width: "18rem",
-              height: "10rem",
+              height: "15rem",
               background: "white",
               margin: "24px",
-              marginTop: "90px",
+              marginTop: "50px",
               boxShadow: "5px 5px 5px #333333",
             }}
           >
@@ -45,6 +46,10 @@ function Back() {
                 title="Contemplative Reptile"
               />
             </CardActionArea>
+            <CardContent>
+              <Typography variant="h6">Team: {datas.team}</Typography>
+              <Typography>Captain: {datas.Captain}</Typography>
+            </CardContent>
           </Card>
         </div>
       ))}

@@ -22,13 +22,7 @@ function Footer() {
               Home
             </a>
 
-            <a href="#">Blog</a>
-
-            <a href="#">Pricing</a>
-
             <a href="#">About</a>
-
-            <a href="#">Faq</a>
 
             <a href="#">Contact</a>
           </p>
@@ -36,19 +30,19 @@ function Footer() {
 
         <div className="footer-center">
           <div>
-            <RoomIcon />
+            <RoomIcon style={{ color: "white" }} />
             <p>
-              <span>India</span>
+              <span>Kolhapur,India</span>
             </p>
           </div>
 
           <div>
-            <PhoneIcon />
-            <p>1234567890</p>
+            <PhoneIcon style={{ color: "white" }} />
+            <p> 1234567890</p>
           </div>
 
           <div>
-            <EmailIcon />
+            <EmailIcon style={{ color: "white" }} />
             <p>
               <a href="mailto:support@company.com">support@company.com</a>
             </p>
