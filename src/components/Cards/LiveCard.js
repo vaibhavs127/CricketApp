@@ -35,9 +35,9 @@ function LiveCard() {
                 background: "black",
                 // margin: "20px 24px",
                 marginLeft: "-610px",
-                opacity: "0.7",
+                opacity: "0.8",
                 boxShadow: "5px 5px 5px #333333",
-                marginTop: "220px",
+                marginTop: "240px",
               }}
             >
               <CardContent>

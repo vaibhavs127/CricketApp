@@ -10,7 +10,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import InfoIcon from "@material-ui/icons/Info";
 import FormatListNumberedIcon from "@material-ui/icons/FormatListNumbered";
-import Background from "../Images/back2.jpg";
+import Background from "../Images/back3.jpg";
 import LiveCard from "../Cards/LiveCard";
 import Back from "./Back";
 import Footer from "./Footer";

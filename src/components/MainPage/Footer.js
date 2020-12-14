@@ -7,68 +7,20 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import { Grid } from "@material-ui/core";
 
 function Footer() {
   return (
-    <div>
-      <footer className="footer-distributed">
-        <div className="footer-left">
-          <h3>
-            Cricket<span>App</span>
-          </h3>
-
-          <p className="footer-links">
-            <a href="#" className="link-1">
-              Home
-            </a>
-
-            <a href="#">About</a>
-
-            <a href="#">Contact</a>
-          </p>
-        </div>
-
-        <div className="footer-center">
-          <div>
-            <RoomIcon style={{ color: "white" }} />
-            <p>
-              <span>Kolhapur,India</span>
-            </p>
-          </div>
-
-          <div>
-            <PhoneIcon style={{ color: "white" }} />
-            <p> 1234567890</p>
-          </div>
-
-          <div>
-            <EmailIcon style={{ color: "white" }} />
-            <p>
-              <a href="mailto:support@company.com">support@company.com</a>
-            </p>
-          </div>
-        </div>
-
-        <div className="footer-right">
-          <p className="footer-company-about">
-            <span>About the company</span>
-            Here you can get all the details of matches and the latest news
-          </p>
-
-          <div className="footer-icons">
-            <a href="#">
-              <FacebookIcon />
-            </a>
-            <a href="#">
-              <TwitterIcon />
-            </a>
-            <a href="#">
-              <LinkedInIcon />
-            </a>
-            <a href="#">
-              <GitHubIcon />
-            </a>
-          </div>
+    <div class="wrapper">
+      <footer>
+        <h1>
+          Cricket<span style={{ color: "blue" }}>App</span>
+        </h1>
+        <div>
+          <FacebookIcon />
+          <TwitterIcon />
+          <LinkedInIcon />
+          <GitHubIcon />
         </div>
       </footer>
     </div>
