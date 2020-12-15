@@ -35,7 +35,7 @@ function Back() {
               height: "15rem",
               background: "white",
               margin: "24px",
-              marginTop: "50px",
+              marginTop: "40px",
               boxShadow: "5px 5px 5px #333333",
             }}
           >

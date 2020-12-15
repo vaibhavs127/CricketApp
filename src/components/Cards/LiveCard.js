@@ -11,7 +11,7 @@ function LiveCard() {
   useEffect(() => {
     axios
       .get(
-        `https://cricapi.com/api/cricketScore/?apikey=${API_KEY}&unique_id=1233958`
+        `https://cricapi.com/api/cricketScore/?apikey=${API_KEY}&unique_id=1226866`
       )
 
       .then((res) => {
@@ -31,7 +31,7 @@ function LiveCard() {
               id="mob"
               style={{
                 width: "40rem",
-                height: "20rem",
+                height: "21rem",
                 background: "black",
                 // margin: "20px 24px",
                 marginLeft: "-610px",
@@ -51,7 +51,7 @@ function LiveCard() {
                     <Typography
                       style={{
                         color: "white",
-                        fontSize: "30px",
+                        fontSize: "28px",
                         fontWeight: "bold",
                       }}
                     >
@@ -65,7 +65,7 @@ function LiveCard() {
                     <Typography
                       style={{
                         color: "white",
-                        fontSize: "30px",
+                        fontSize: "28px",
                         fontWeight: "bold",
                       }}
                     >
