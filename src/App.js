@@ -15,25 +15,25 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" component={MainPage} />
-          <Route path="/Data" component={Data}>
+          <Route exact path="/Data" component={Data}>
             <Data />
           </Route>
-          <Route path="/ODIData" component={ODIData}>
+          <Route exact path="/ODIData" component={ODIData}>
             <ODIData />
           </Route>
-          <Route path="/AllMatches" component={AllMatches}>
+          <Route exact path="/AllMatches" component={AllMatches}>
             <AllMatches />
           </Route>
-          <Route path="/Team" component={Team}>
+          <Route exact path="/Team" component={Team}>
             <Team />
           </Route>
-          <Route path="/News" component={News}>
+          <Route exact path="/News" component={News}>
             <News />
           </Route>
-          <Route path="/ODI" component={ODI}>
+          <Route exact path="/ODI" component={ODI}>
             <ODI />
           </Route>
-          <Route exact path="" component={ErrorPage}>
+          <Route component={ErrorPage}>
             <ErrorPage />
           </Route>
         </Switch>
