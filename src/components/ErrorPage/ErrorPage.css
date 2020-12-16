@@ -1,0 +1,111 @@
+.mainbox {
+  /* margin: auto; */
+  margin-top: 30px;
+  height: 600px;
+  width: 700px;
+  position: relative;
+}
+
+.err {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+  text-shadow: 2px 3px #ff0000;
+}
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 43%;
+  top: 15%;
+  color: black;
+  text-shadow: 2px 3px #ff0000;
+}
+
+.err2 {
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 68%;
+  top: 8%;
+  text-shadow: 2px 3px #ff0000;
+}
+
+.msg {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 16%;
+  top: 55%;
+  width: 75%;
+  color: grey;
+}
+.msg1 {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  width: 75%;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 3px #ff0000;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainbox {
+    width: 100%;
+  }
+  .err {
+    font-size: 50px;
+    position: absolute;
+    left: 20%;
+    top: 8%;
+    text-shadow: 2px 3px #ff0000;
+  }
+  .far {
+    font-size: 50px;
+    position: absolute;
+    left: 42%;
+    top: 10%;
+    text-shadow: 2px 3px #ff0000;
+  }
+  .err2 {
+    font-size: 50px;
+    position: absolute;
+    left: 68%;
+    top: 8%;
+    text-shadow: 2px 3px #ff0000;
+  }
+  .msg {
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 13%;
+    top: 40%;
+    width: 75%;
+    color: grey;
+  }
+  .msg1 {
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 13%;
+    top: 25%;
+    width: 75%;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 3px #ff0000;
+  }
+  .logo {
+    width: 7%;
+  }
+}

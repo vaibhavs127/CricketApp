@@ -7,6 +7,7 @@ import ODIData from "./Pages/ODIData";
 import AllMatches from "./Pages/AllMatchs";
 import Team from "./Pages/Team";
 import ODI from "./components/ICCRanking/ODI";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 function App() {
   return (
@@ -14,23 +15,26 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" component={MainPage} />
-          <Route path="/Data">
+          <Route path="/Data" component={Data}>
             <Data />
           </Route>
-          <Route path="/ODIData">
+          <Route path="/ODIData" component={ODIData}>
             <ODIData />
           </Route>
-          <Route path="/AllMatches">
+          <Route path="/AllMatches" component={AllMatches}>
             <AllMatches />
           </Route>
-          <Route path="/Team">
+          <Route path="/Team" component={Team}>
             <Team />
           </Route>
-          <Route path="/News">
+          <Route path="/News" component={News}>
             <News />
           </Route>
-          <Route path="/ODI">
+          <Route path="/ODI" component={ODI}>
             <ODI />
+          </Route>
+          <Route exact path="" component={ErrorPage}>
+            <ErrorPage />
           </Route>
         </Switch>
       </div>
